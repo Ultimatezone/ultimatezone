@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>À propos d&#x27;Ultime Zone</title>
+<meta name="description" content="Ultime Zone est un battle royale 2D gratuit qui se joue dans le navigateur, sur téléphone ou ordinateur.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0c1315;--panel:#121d20;--ink:#e8f0ee;--dim:#9db1ad;--accent:#ff5a36;--line:rgba(232,240,238,.14)}
+*{box-sizing:border-box}
+html{background:var(--bg)}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  padding:0 max(16px,env(safe-area-inset-right)) 0 max(16px,env(safe-area-inset-left))}
+header,main,footer{max-width:760px;margin:0 auto}
+header{padding:18px 0 14px;border-bottom:1px solid var(--line)}
+.brand{font:700 28px/1 Rajdhani,system-ui,sans-serif;text-transform:uppercase;letter-spacing:.04em;color:var(--ink);text-decoration:none}
+.brand em{font-style:normal;color:var(--accent)}
+nav{display:flex;flex-wrap:wrap;gap:6px 18px;margin-top:10px;font-size:15px}
+nav a{color:var(--dim);text-decoration:none;padding:2px 0;border-bottom:2px solid transparent}
+nav a:hover,nav a[aria-current]{color:var(--ink);border-color:var(--accent)}
+main{padding:28px 0 36px}
+h1{font:700 clamp(34px,8vw,52px)/1 Rajdhani,system-ui,sans-serif;text-transform:uppercase;margin:0 0 6px}
+h2{font:700 26px/1.1 Rajdhani,system-ui,sans-serif;text-transform:uppercase;letter-spacing:.03em;margin:34px 0 8px;color:var(--ink)}
+h3{font-size:18px;margin:20px 0 4px}
+p,li{max-width:68ch}
+.meta{color:var(--dim);font-size:14px;margin:0 0 22px}
+a{color:#7bdff2}
+a:focus-visible,.cta:focus-visible{outline:3px solid #5ce1e6;outline-offset:3px}
+.cta{display:inline-block;background:var(--accent);color:#1a0c08;font:700 20px/1 Rajdhani,system-ui,sans-serif;text-transform:uppercase;
+  letter-spacing:.08em;padding:13px 28px;text-decoration:none;margin:10px 0}
+.todo{background:#ffd166;color:#241a00;padding:0 4px;font-weight:600}
+.tw{overflow-x:auto;margin:10px 0}
+table{border-collapse:collapse;min-width:520px;width:100%;font-size:15px}
+th,td{border-bottom:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+th{color:var(--dim);font-weight:600;font-size:13px;letter-spacing:.08em;text-transform:uppercase}
+.note{background:var(--panel);border-left:3px solid var(--accent);padding:12px 16px;margin:18px 0}
+footer{border-top:1px solid var(--line);padding:18px 0 28px;color:var(--dim);font-size:14px}
+footer a{color:var(--dim)}
+ul{padding-left:22px}
+</style>
+</head>
+<body>
+<header>
+<a class="brand" href="index.html">Ultime <em>Zone</em></a>
+<nav aria-label="Navigation"><a href="index.html">Jouer</a><a href="guide.html">Comment jouer</a><a href="a-propos.html" aria-current="page">À propos</a><a href="confidentialite.html">Confidentialité</a><a href="contact.html">Contact</a></nav>
+</header>
+<main>
+
+<h1>À propos</h1>
+<p class="meta">Un battle royale 2D gratuit, pensé pour le téléphone.</p>
+
+<h2>Ultime Zone en bref</h2>
+<p>Ultime Zone est un jeu de survie en vue de dessus. Vous êtes parachuté sur une carte avec des dizaines de joueurs. Il faut trouver des armes, éviter la zone qui se referme et être le dernier debout. Une partie dure entre une et trois minutes en mode Solo, un peu plus en mode Marathon.</p>
+<p>Le jeu fonctionne directement dans le navigateur, sans installation, sans compte et sans connexion obligatoire. Il tient dans un seul fichier léger, ce qui le rend rapide à charger même avec une connexion mobile lente.</p>
+
+<h2>Pourquoi ce jeu</h2>
+<p>Les grands jeux de type battle royale demandent un téléphone récent et plusieurs centaines de mégaoctets de téléchargement. Ultime Zone reprend l'essentiel de l'expérience (butin, zone qui se referme, duels) dans une version qui se lance en quelques secondes sur n'importe quel téléphone.</p>
+
+<h2>Ce que vous trouverez</h2>
+<ul>
+<li>Trois modes : Solo, Duo avec un allié, Marathon à 40 joueurs.</li>
+<li>Quatre armes aux comportements différents.</li>
+<li>Six tenues à choisir.</li>
+<li>Des commandes tactiles pensées pour le pouce, et un contrôle clavier-souris sur ordinateur.</li>
+<li>Vos meilleurs scores, enregistrés sur votre appareil.</li>
+</ul>
+<p>Pour aller plus loin, lisez notre <a href="guide.html">guide du joueur</a>.</p>
+
+<h2>Gratuit et financé par la publicité</h2>
+<p>Le jeu est entièrement gratuit et il n'y a aucun achat intégré. Le site est financé par de la publicité Google AdSense affichée sur l'écran d'accueil et l'écran de fin. Aucune publicité n'apparaît pendant une partie. Les détails sur les cookies sont dans la <a href="confidentialite.html">politique de confidentialité</a>.</p>
+
+<h2>Qui est derrière le site</h2>
+<p>Ultime Zone est un projet indépendant créé par Ultimate. Les adversaires sont contrôlés par l'ordinateur : il n'y a pas de joueurs en ligne, donc pas de triche ni de messages entre joueurs.</p>
+
+<h2>Une idée, un bug, un message</h2>
+<p>Toutes les remarques sont les bienvenues. Rendez-vous sur la page <a href="contact.html">Contact</a>.</p>
+<a class="cta" href="index.html">Jouer</a>
+
+</main>
+<footer>
+<p>&copy; 2026 Ultimate &middot; Ultime Zone est un jeu gratuit. <a href="confidentialite.html">Confidentialité</a> &middot; <a href="contact.html">Contact</a></p>
+</footer>
+</body>
+</html>
